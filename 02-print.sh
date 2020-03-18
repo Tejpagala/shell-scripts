@@ -13,3 +13,7 @@ echo "Hello "
 ## echo with new line 
 
 echo -e "Hello\nTeja"
+
+# echo with tab space 
+
+echo "Hello\t\tWorld"
