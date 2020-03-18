@@ -34,3 +34,7 @@ echo -e "Hello\t\tWorld"
 # echo -e "\e[colorcodem message"
 
 echo -e "\e[35m Hello Teja in magenta color"
+
+echo "Welcome to shell scripting"
+
+# Any time you enable the color, you have to diable it, other wise it will color the next ines also.
