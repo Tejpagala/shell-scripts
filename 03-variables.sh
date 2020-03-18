@@ -27,9 +27,9 @@ echo "Hello Very Good Morning, Today date is ${DATE}"
 
 a=10
 b=20
-ADD=(($a+$b))
+ADD=$(($a+$b))
 
-echo "sum of $a and $b = ${ADD}"
+echo "Addition of $a and $b = ${ADD}"
 
 
  
