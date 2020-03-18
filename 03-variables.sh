@@ -15,4 +15,12 @@ echo "Hello, My name is ${NAME}"
 echo "and my age is ${AGE}"
 echo "Today date is ${DATE}"
 
+# In the above case date should be dynamically assigned and not by manually as the same code if you execute tomorrow, The code will be wrong.
+
+#syntax is VAR=$(DATE +%F)
+
+DATE=$(date +%F)
+
+echo "Hello Very Good Morning, Today dte is ${DATE}"
+
  
