@@ -38,3 +38,6 @@ echo -e "\e[35m Hello Teja in magenta color"
 echo "Welcome to shell scripting"
 
 # Any time you enable the color, you have to diable it, other wise it will color the next ines also.
+
+echo -e "\e[36m hello everyone\e[0m"
+echo "How are you"
