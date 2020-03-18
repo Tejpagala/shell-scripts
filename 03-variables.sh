@@ -21,6 +21,15 @@ echo "Today date is ${DATE}"
 
 DATE=$(date +%F)
 
-echo "Hello Very Good Morning, Today dte is ${DATE}"
+echo "Hello Very Good Morning, Today date is ${DATE}"
+
+## Arthimetic substitution 
+
+a=10
+b=20
+c=(($a+$b))
+
+echo "sum of ${a} and ${b} is ${c}"
+
 
  
