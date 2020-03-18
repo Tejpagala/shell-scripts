@@ -41,3 +41,7 @@ echo "Welcome to shell scripting"
 
 echo -e "\e[36m hello everyone\e[0m"
 echo "How are you"
+
+# printing with bg and fg
+
+echo -e "\e[42;31m Hello Teja\e[0m"
