@@ -7,8 +7,8 @@
 # syntax
 # VAR = DATA
 
-NAME = TEJA
-AGE = 25
+NAME=TEJA
+AGE=25
 
 echo "Hello, My name is ${NAME}"
 echo "and my age is ${AGE}"
