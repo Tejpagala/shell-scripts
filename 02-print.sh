@@ -16,4 +16,4 @@ echo -e "Hello\nTeja"
 
 # echo with tab space 
 
-echo "Hello\t\tWorld"
+echo -e "Hello\t\tWorld"
