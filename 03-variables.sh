@@ -9,7 +9,10 @@
 
 NAME=TEJA
 AGE=25
+DATE=18-03-2020
 
 echo "Hello, My name is ${NAME}"
 echo "and my age is ${AGE}"
+echo "Today date is ${DATE}"
+
  
