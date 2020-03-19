@@ -49,3 +49,10 @@ demo1() {
     echo "b in main = $b"
 
     ## conditions are same as variables.
+
+    ## Types of commands in shell
+
+    #1. Binaries - commands which sits in bin directories, EX- which cd
+    #2. Shell Built in commands - We can know all these commands by enable command.
+    #3. alias - ex - alias "C=clear"
+    #4. functions.
