@@ -47,3 +47,5 @@ demo1() {
     demo2
 
     echo "b in main = $b"
+
+    ## conditions are same as variables.

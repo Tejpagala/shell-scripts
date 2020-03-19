@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# special variables are 0-n,*,@,$,#
+
+echo "script name = $0"
