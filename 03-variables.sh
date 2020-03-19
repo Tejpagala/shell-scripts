@@ -36,6 +36,16 @@ echo "Addition of $a and $b = ${ADD}"
 
 echo "Logged in user = $USER"
 
+## By using export command, We can export data.
 echo "My name is ${TRAINER}"
+
+## Dont's of Variables
+
+# 1. Varaibles name should not start with number, like 1user. It can be user1.
+
+# 2. In variable you cannot use special characters except A-Z,a-Z,0-9 and "_".
+
+
+
 
  
