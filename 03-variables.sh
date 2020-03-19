@@ -31,5 +31,9 @@ ADD=$(($a+$b))
 
 echo "Addition of $a and $b = ${ADD}"
 
+## Env variables.
+
+echo "Logged in user = $USER"
+
 
  
