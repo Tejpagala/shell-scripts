@@ -11,7 +11,12 @@ funtion sample1() {
     cat /etc/passwd -1
 }
 
+#Type 2
+
 sample2() {
     ls
     cat /etc/passwd -1
 }
+
+sample1
+sample2
