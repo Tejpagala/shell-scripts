@@ -6,7 +6,7 @@
 
 #type1
 
-funtion sample1() {
+function sample1() {
     ls
     cat /etc/passwd | head -1
 }
