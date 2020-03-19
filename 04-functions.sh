@@ -8,15 +8,16 @@
 
 funtion sample1() {
     ls
-    cat /etc/passwd -1
+    cat /etc/passwd | head -1
 }
 
 #Type 2
 
 sample2() {
     ls
-    cat /etc/passwd -1
+    cat /etc/passwd -1 | head -1
 }
 
+## Access function
 sample1
 sample2
