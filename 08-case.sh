@@ -3,15 +3,15 @@
 action=$1
 
 case $action in
-start)
+    start)
       echo "Performing start action"
       ;;
-stop)
+    stop)
       echo "Performing stop action"
       ;;
-*)   
-  echo "Input action needed start/stop"
-  exit 1
+    *)   
+       echo "Input action needed start/stop"
+       exit 1
 esac
 
 echo "Hello"
