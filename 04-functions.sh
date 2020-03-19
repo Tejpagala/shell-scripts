@@ -34,6 +34,6 @@ demo1() {
 
 }
 
-    echo "a in outside is ${a}"
-
     demo1
+
+    echo "a in outside is ${a}"
