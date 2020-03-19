@@ -15,7 +15,7 @@ funtion sample1() {
 
 sample2() {
     ls
-    cat /etc/passwd -1 | head -1
+    cat /etc/passwd | head -1
 }
 
 ## Access function
