@@ -36,6 +36,6 @@ echo "Addition of $a and $b = ${ADD}"
 
 echo "Logged in user = $USER"
 
-echo "My name is ${NAME}"
+echo "My name is ${TRAINER}"
 
  
