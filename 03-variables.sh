@@ -31,9 +31,11 @@ ADD=$(($a+$b))
 
 echo "Addition of $a and $b = ${ADD}"
 
-## Env variables.
+## Env variables. By default all env var can be seen with the env command.
+
 
 echo "Logged in user = $USER"
 
+echo "My name is ${NAME}"
 
  
