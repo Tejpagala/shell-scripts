@@ -37,3 +37,13 @@ demo1() {
     demo1
 
     echo "a in outside is ${a}"
+
+    demo2() {
+        local b=10
+
+        echo "b in function = $b"
+    }
+
+    demo2
+
+    echo "b in main = $b"
