@@ -17,15 +17,15 @@
 
 # common example for If-else
 # access variables.
-a = 20
-b = 20
+a=20
+b=20
 
 if [ ${a} == ${b} ]
-   
+
+then
    # print this statement
    echo "a is equal to b"
-
-   else
+else
    echo "a is not equal to b"
 
 fi
