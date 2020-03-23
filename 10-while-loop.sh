@@ -5,8 +5,8 @@
 
 sleep 50 &
 
-while `ps -ef | grep -sleep | grep -v grep &>/dev/null`
+while `ps -ef | grep -sleep | grep -v grep` &>/dev/null`
 do 
    echo "sleep command is running"
-   sleep 1
+   sleep 5
 done
