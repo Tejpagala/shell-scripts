@@ -18,7 +18,7 @@
 # common example for If-else
 # access variables.
 
-action =$1
+action=$1
 
 if [ "${action}" = "start" ]; then
    echo "performig start action"
