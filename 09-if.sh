@@ -17,15 +17,14 @@
 
 # common example for If-else
 # access variables.
-a=20
-b=20
 
-if [ ${a} == ${b} ]
+action =$1
 
-then
-   # print this statement
-   echo "a is equal to b"
-else
-   echo "a is not equal to b"
-
+if [ "${action}" = "start" ]; then
+   echo "performig start action"
+elif [ "${action}" = "stop" ]; then
+   echo "performing stop action"
+else 
+   echo "input needed start/stop"
+   exit 1
 fi
