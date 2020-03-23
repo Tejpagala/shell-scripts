@@ -8,5 +8,5 @@ sleep 100 &
 while `ps -ef | grep -sleep | grep -v grep &>/dev/null`
 do 
    echo "sleep command is running"
-   sleep 20
+   sleep 5
 done
