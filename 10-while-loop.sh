@@ -7,6 +7,6 @@ n=1
 
 while [ $n -le 5 ]
 do 
-   echo "welcome $1 time"
+   echo "welcome $n times"
    n=$(( n+1 ))
 done
