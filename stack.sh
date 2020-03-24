@@ -23,6 +23,10 @@ Stat () {
         exit 2
     fi
 }
+
+Head () {
+    echo -e "\n\t\t\e[1;4;36m$1\e[0m\n"
+}
 ID=$(id -u)
 
 if [ $ID -ne 0 ]; then
