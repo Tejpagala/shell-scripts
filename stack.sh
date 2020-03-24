@@ -7,11 +7,11 @@ Error () {
 }
 
 Success () {
-    echo -e "\e[31m $1  -  SUCCESS\e[0m"
+    echo -e "\e[32m $1  -  SUCCESS\e[0m"
 }
 
 Failure () {
-    echo -e "\e[32m $1  -  FAILURE\e[0m"
+    echo -e "\e[31m $1  -  FAILURE\e[0m"
 }
 
 Stat () {
