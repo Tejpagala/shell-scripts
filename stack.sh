@@ -34,7 +34,20 @@ LOG=\tmp\stack.log
 rm -f \tmp\stack.log
 
 # Install web server
+Head "Web Server Setup"
 echo "Install a web server"
-yum install httpd -y &>>/tmp/stack.log
+yum install httpd -y &>>$LOG
+Stat "Installing HTTPD Server" $?
+
+echo 'ProxyPass "/student" "http://localhost:8080/student"
+ProxyPassReverse "/student"  "http://localhost:8080/student"' >/etc/httpd/conf.d/app-proxy.conf 
+Stat "Updating Proxy Config" $? 
+
+curl -s https://s3-us-west-2.amazonaws.com/studentapi-cit/index.html -o /var/www/html/index.html &>>$LOG 
+Stat "Updating index web page" $? 
+
+systemctl enable httpd &>/dev/null 
+systemctl restart httpd &>>$LOG 
+Stat "Starting HTTPD Service" $?
 
 # Install App server
