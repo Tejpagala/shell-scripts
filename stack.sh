@@ -21,6 +21,7 @@ Stat () {
         Failure "$1"
         Error "Refer log file $LOG for more information"
         exit 2
+    fi
 }
 ID=$(id -u)
 
