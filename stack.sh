@@ -50,3 +50,6 @@ systemctl enable httpd &>/dev/null
 systemctl restart httpd &>>$LOG 
 Stat "Starting HTTPD Service" $?
 
+## installing APP server
+
+
